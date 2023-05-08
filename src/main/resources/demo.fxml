@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="459.0" prefWidth="970.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.redolf.javafx.Controller">
+   <children>
+      <Label fx:id="males" alignment="CENTER" layoutX="23.0" layoutY="225.0" prefHeight="118.0" prefWidth="160.0" style="-fx-background-color: rgb(45,45,45); -fx-background-radius: 20px;" text="0" textFill="WHITE">
+         <font>
+            <Font size="51.0" />
+         </font>
+      </Label>
+      <Label fx:id="females" alignment="CENTER" layoutX="211.0" layoutY="225.0" prefHeight="118.0" prefWidth="160.0" style="-fx-background-color: rgb(45,45,45); -fx-background-radius: 20px;" text="0" textFill="WHITE">
+         <font>
+            <Font size="51.0" />
+         </font>
+      </Label>
+      <Label fx:id="non_binary" alignment="CENTER" layoutX="400.0" layoutY="225.0" prefHeight="118.0" prefWidth="160.0" style="-fx-background-color: rgb(45,45,45); -fx-background-radius: 20px;" text="0" textFill="WHITE">
+         <font>
+            <Font size="51.0" />
+         </font>
+      </Label>
+      <Label fx:id="males1" alignment="CENTER" layoutX="23.0" layoutY="166.0" prefHeight="39.0" prefWidth="160.0" style="-fx-background-color: rgb(45,45,45); -fx-background-radius: 10px;" text="Males" textFill="WHITE">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="males11" alignment="CENTER" layoutX="211.0" layoutY="166.0" prefHeight="39.0" prefWidth="160.0" style="-fx-background-color: rgb(45,45,45); -fx-background-radius: 10px;" text="Females" textFill="WHITE">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="males111" alignment="CENTER" layoutX="400.0" layoutY="165.0" prefHeight="39.0" prefWidth="160.0" style="-fx-background-color: rgb(45,45,45); -fx-background-radius: 10px;" text="Non-binary" textFill="WHITE">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="males12" alignment="CENTER" layoutX="26.0" layoutY="69.0" prefHeight="39.0" prefWidth="918.0" style="-fx-background-color: rgb(45,45,45); -fx-background-radius: 10px;" text="Welcome to my gender streaming application" textFill="WHITE">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="bigender" alignment="CENTER" layoutX="591.0" layoutY="226.0" prefHeight="118.0" prefWidth="160.0" style="-fx-background-color: rgb(45,45,45); -fx-background-radius: 20px;" text="0" textFill="WHITE">
+         <font>
+            <Font size="51.0" />
+         </font>
+      </Label>
+      <Label fx:id="males1111" alignment="CENTER" layoutX="591.0" layoutY="166.0" prefHeight="39.0" prefWidth="160.0" style="-fx-background-color: rgb(45,45,45); -fx-background-radius: 10px;" text="Bi-binary" textFill="WHITE">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="other" alignment="CENTER" layoutX="785.0" layoutY="226.0" prefHeight="118.0" prefWidth="160.0" style="-fx-background-color: rgb(45,45,45); -fx-background-radius: 20px;" text="0" textFill="WHITE">
+         <font>
+            <Font size="51.0" />
+         </font>
+      </Label>
+      <Label fx:id="males11111" alignment="CENTER" layoutX="785.0" layoutY="166.0" prefHeight="39.0" prefWidth="160.0" style="-fx-background-color: rgb(45,45,45); -fx-background-radius: 10px;" text="Non-binary" textFill="WHITE">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Button layoutX="219.0" layoutY="389.0" mnemonicParsing="false" onAction="#count" prefHeight="43.0" prefWidth="250.0" style="-fx-background-color: rgb(45,45,45); -fx-background-radius: 10px;" text="Starm streaming" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="10.5" radius="2.125" width="0.0" />
+         </effect>
+      </Button>
+      <Button layoutX="500.0" layoutY="389.0" mnemonicParsing="false" onAction="#stop" prefHeight="43.0" prefWidth="250.0" style="-fx-background-color: rgb(45,45,45); -fx-background-radius: 10px;" text="Stop streaming" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="10.5" radius="2.125" width="0.0" />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>
